@@ -1,0 +1,191 @@
+/*=============== Slider Top Css Start ===================*/
+
+.hsck_slider {
+    background-image: url("images/header_vector.svg");
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 225px;
+    position: relative;
+    bottom: 3px;
+}
+
+.hsck_slider .item {
+    display: flex;
+    align-items: center;
+}
+
+.hsck_slider .item .hsck_left_section {
+    width: 50%;
+}
+
+.hsck_slider .item .hsck_left_section h1 {
+    color: #fff;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 80px;
+    margin-top: 30px;
+}
+
+.hsck_slider .item .hsck_left_section h1 span {
+    color: #1A2C79;
+}
+
+.hsck_slider .item .hsck_left_section p {
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.hsck_slider .item .hsck_left_section button {
+    color: #fff;
+    background-color: #1a2c79;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 12px 15px 15px;
+    font-size: 20px;
+    min-width: 160px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hsck_slider .item .hsck_right_section {
+    width: 50%;
+}
+
+.hsck_slider .item .hsck_right_section img {
+    width: 100%;
+    max-width: 500PX;
+    float: right;
+    animation: sliderimg 8s infinite;
+    position: relative;
+}
+
+@keyframes sliderimg {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+    25% {
+        right: 25px;
+        top: 0px;
+    }
+    50% {
+        right: 25px;
+        top: 25px;
+    }
+    75% {
+        right: 0px;
+        top: 25px;
+    }
+    100% {
+        right: 0px;
+        top: 0px;
+    }
+}
+
+.hsck_slider .owl-dots button span {
+    background: #fff !important;
+    margin: 0px !important;
+}
+
+.hsck_slider .owl-dots {
+    position: relative;
+    top: 70px;
+}
+
+.hsck_slider .owl-dots button {
+    outline: none;
+    padding: 3px !important;
+    margin: 0 6px;
+    background: #fff !important;
+    border-radius: 50px;
+    border: 2px solid #fff !important;
+}
+
+.hsck_slider .owl-dots button.active span {
+    background: #192b79 !important;
+}
+
+.hsck_slider .owl-dots button.active {
+    background: transparent !important;
+}
+
+.hsck_slider .owl-dots button.active {
+    border: 2px solid #192b79 !important;
+}
+
+@media only screen and (max-width: 1200.98px) {
+    .hsck_slider .item .hsck_left_section h1 {
+        font-size: 3rem;
+        line-height: 65px;
+    }
+    .hsck_slider .item .hsck_left_section p {
+        color: #fff;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hsck_slider .item .hsck_left_section button {
+        font-size: 16px;
+        min-width: 150px;
+        border-radius: 6px;
+    }
+    .hsck_slider .item .hsck_right_section img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_slider .item .hsck_left_section h1 {
+        font-size: 2.4rem;
+        line-height: 50px;
+    }
+    .hsck_slider .item .hsck_left_section p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hsck_slider .item .hsck_right_section img {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_slider .item .hsck_left_section h1 {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+    .hsck_slider .item .hsck_left_section p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .hsck_slider .item .hsck_left_section button {
+        font-size: 14px;
+        min-width: 140px;
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .hsck_slider .item {
+        display: block;
+    }
+    .hsck_slider .item .hsck_left_section {
+        width: 100%;
+        text-align: center;
+    }
+    .hsck_slider .item .hsck_right_section {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .hsck_slider .item .hsck_right_section img {
+        float: unset;
+        margin: 0 auto;
+    }
+}
+
+/*=============== Slider Top Css End ===================*/

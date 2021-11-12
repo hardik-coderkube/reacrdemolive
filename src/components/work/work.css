@@ -1,0 +1,201 @@
+/*=============== Work Css Start ===================*/
+
+.hsck_work {
+    padding: 50px 0;
+    position: relative;
+}
+
+.hsck_work .hsck_work_rightbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hsck_work .hsck_work_rightbar img {
+    width: 100%;
+    max-width: 135px;
+    position: relative;
+    top: 40px;
+}
+
+.hsck_work .hsck_work_inner {
+    text-align: center;
+    display: block;
+    max-width: 450px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hsck_work .hsck_work_inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    box-shadow: 0 0 7px 0 #8c72b7;
+    border-radius: 80px;
+}
+
+.hsck_work .hsck_work_inner strong {
+    display: block;
+    color: #6730E3;
+    margin: 8px 0 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hsck_work .hsck_work_inner h3 {
+    color: #000;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hsck_work .hsck_work_inner p {
+    color: #707070;
+    display: block;
+    font-size: 16px;
+}
+
+.hsck_work .hsck_work_outer .hsck_work_menublog {
+    text-align: center;
+}
+
+.hsck_work .hsck_work_outer .hsck_work_menublog button {
+    display: inline-block;
+    padding: 8px 18px 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    text-decoration: none;
+    border-radius: 12px;
+    color: #000;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.hsck_work .hsck_work_outer .hsck_work_menublog button.active {
+    background: #1A2C79;
+    color: #fff;
+}
+
+.hsck_work .hsck_work_outer .image-container {
+    text-align: center;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0;
+    width: calc(33.33% - 30px);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog.hide {
+    display: none;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    right: 0;
+    height: 100%;
+    background-image: linear-gradient(#6F2FE54F, #CF24F6);
+    width: 100%;
+    color: #fff;
+    text-align: left;
+    padding: 90px 60px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog:hover .hsck_work_hover {
+    top: 0px;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover h5 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover h6 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_work .hsck_work_rightbar img {
+        max-width: 85px;
+    }
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover {
+        padding: 40px 30px 10px;
+    }
+    .hsck_work .hsck_work_outer .hsck_work_menublog button {
+        font-size: 14px;
+        padding: 5px 20px 8px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover {
+        padding: 20px 20px 10px;
+    }
+    .hsck_work .hsck_work_outer .hsck_work_menublog button {
+        font-size: 14px;
+        padding: 5px 12px 8px;
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover h5 {
+        font-size: 14px;
+    }
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog .hsck_work_hover h6 {
+        font-size: 16px;
+    }
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog {
+        margin: 5px;
+        width: calc(50% - 15px)
+    }
+    .hsck_work .hsck_work_outer .hsck_work_menublog {
+        margin-bottom: 30px;
+    }
+    .hsck_work .hsck_work_outer .hsck_work_menublog button {
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 500.98px) {
+    .hsck_work .hsck_work_outer .image-container .hsck_image_blog {
+        margin: 5px;
+        width: calc(50% - 15px)
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .hsck_work .hsck_work_inner h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/*=============== Work Css End ===================*/

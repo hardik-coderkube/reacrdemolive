@@ -1,0 +1,181 @@
+/*=============== Work Process Css Start ===================*/
+
+.hsck_work_process {
+    padding: 50px 0;
+    position: relative;
+    background-image: url(images/work-process-back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hsck_work_process .hsck_work_process_inner {
+    text-align: center;
+    display: block;
+    max-width: 450px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hsck_work_process .hsck_work_process_inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    box-shadow: 0 0 7px 0 #8c72b7;
+    border-radius: 80px;
+}
+
+.hsck_work_process .hsck_work_process_inner strong {
+    display: block;
+    color: #fff;
+    margin: 8px 0 0px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.hsck_work_process .hsck_work_process_inner h3 {
+    color: #fff;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/********/
+
+.hsck_work_process .item {
+    display: flex;
+    align-items: center;
+}
+
+.hsck_work_process .item .hsck_left_section {
+    width: 50%;
+}
+
+.hsck_work_process .item .hsck_left_section h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 30px;
+    max-width: 430px;
+}
+
+.hsck_work_process .item .hsck_left_section p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 460px;
+}
+
+.hsck_work_process .item .hsck_left_section button {
+    color: #fff;
+    background-color: #1a2c79;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    padding: 12px;
+    font-size: 16px;
+    min-width: 135px;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hsck_work_process .item .hsck_right_section {
+    width: 50%;
+}
+
+.hsck_work_process .item .hsck_right_section img {
+    width: 100%;
+    max-width: 500PX;
+    float: right;
+}
+
+.hsck_work_process .owl-dots button span {
+    background: #fff !important;
+    margin: 0px !important;
+}
+
+@media only screen and (max-width: 1200.98px) {
+    .hsck_work_process .item .hsck_left_section h1 {
+        font-size: 3rem;
+        line-height: 65px;
+    }
+    .hsck_work_process .item .hsck_left_section p {
+        color: #fff;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .hsck_work_process .item .hsck_left_section button {
+        font-size: 16px;
+        min-width: 150px;
+        border-radius: 6px;
+    }
+    .hsck_work_process .item .hsck_right_section img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_work_process .item .hsck_left_section h1 {
+        font-size: 2.4rem;
+        line-height: 50px;
+    }
+    .hsck_work_process .item .hsck_left_section p {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .hsck_work_process .item .hsck_right_section img {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_work_process .item .hsck_left_section h1 {
+        font-size: 1.2rem;
+        line-height: 30px;
+    }
+    .hsck_work_process .item .hsck_left_section p {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+    .hsck_work_process .item .hsck_left_section button {
+        font-size: 14px;
+        min-width: 140px;
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .hsck_work_process .item {
+        display: block;
+        text-align: center;
+    }
+    .hsck_work_process .item .hsck_left_section {
+        width: 100%;
+        text-align: center;
+    }
+    .hsck_work_process .item .hsck_right_section {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .hsck_work_process .item .hsck_right_section img {
+        float: unset;
+        margin: 0 auto;
+    }
+    .hsck_work_process .item .hsck_left_section h1 {
+        max-width: 100%;
+    }
+    .hsck_work_process .item .hsck_left_section p {
+        max-width: 100%;
+    }
+}
+
+/*=============== Work Process Css End ===================*/

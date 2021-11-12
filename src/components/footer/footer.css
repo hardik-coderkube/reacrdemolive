@@ -1,0 +1,149 @@
+/*=============== Footer Section Css Start ===================*/
+
+.hsck_footer {
+    background-image: url(images/footer_back.svg);
+    padding: 150px 0 0;
+    color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hsck_footer .hsck_footer_inner {
+    display: flex;
+    align-items: top;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 {
+    flex: 0 0 33.33%;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 .hsck_foter_logo {
+    max-width: 70px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 ul.hsck_footer_social {
+    margin: 30px 0 0;
+    padding: 0px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 ul.hsck_footer_social li {
+    display: inline-block;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 ul.hsck_footer_social li a {
+    display: block;
+    color: #fff;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 h2 {
+    font-size: 20px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 h2+ul {
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 h2+ul li a {
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.hsck_footer .hsck_footer_inner .hsck_col_4 h2+ul li a i {
+    padding-right: 10px;
+    width: 28px;
+}
+
+.hsck_footer .hsck_footer_outer {
+    margin-top: 60px;
+    padding: 20px;
+    font-size: 16px;
+    border-top: 1px solid #fff;
+}
+
+.hsck_footer .hsck_footer_outer p {
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 900.98px) {
+    .hsck_footer .hsck_footer_inner .hsck_col_4 .hsck_footer_right {
+        max-width: 240px;
+        margin-left: auto;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4 .hsck_footer_centerr {
+        max-width: 260px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_footer .hsck_footer_inner .hsck_col_4 h2 {
+        font-size: 16px;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4 ul.hsck_footer_social {
+        margin: 25px 0 25px;
+        padding: 0px;
+    }
+    .hsck_footer .hsck_footer_inner {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .hsck_footer .hsck_footer_outer {
+        margin-top: 30px;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4 {
+        flex-wrap: wrap;
+        flex: 0 0 100%
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4.hsck_footer_centerr4 {
+        flex: 0 0 50%;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4.hsck_footer_right4 {
+        flex: 0 0 50%;
+        text-align: left;
+        margin-top: 50px;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4 .hsck_footer_right {
+        max-width: 240px;
+        margin-left: auto;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .hsck_footer .hsck_footer_inner {
+        display: block;
+        text-align: center;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4.hsck_footer_centerr4 {
+        text-align: center;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4.hsck_footer_right4 {
+        text-align: center;
+    }
+    .hsck_footer .hsck_footer_inner .hsck_col_4 .hsck_footer_right {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 900.98px) {
+    .hsck_footer .hsck_footer_inner .hsck_col_4 {
+        padding: 0 15px;
+    }
+}
+
+/*=============== Footer Section Css End ===================*/

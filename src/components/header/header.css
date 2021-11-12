@@ -1,0 +1,219 @@
+/*=============== Menu Css Start ===================*/
+
+.hsck_menu {
+    background-color: #672fe3;
+}
+
+.hsck_menu.hsck_menu_fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+.hsck_menu .hsck_navbar {
+    overflow: auto;
+    position: relative;
+}
+
+.hsck_menu .hsck_navbar .hsck_logo_outer {
+    float: left;
+}
+
+.hsck_menu .hsck_navbar .hsck_logo_outer .hsck_logo_inner {
+    display: block;
+}
+
+.hsck_menu .hsck_navbar .hsck_logo_outer .hsck_logo_inner img {
+    display: block;
+    max-width: 85px;
+    position: relative;
+    top: 10px;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right {
+    float: right;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right li {
+    display: inline-block;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right li a {
+    display: block;
+    padding: 40px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right li a::before {
+    content: "";
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    width: 0px;
+    background: #fff;
+    height: 2px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 10px;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right li a:hover::before {
+    opacity: 0.7;
+    width: calc(100% - 45px);
+    transition: all 0.6s ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.hsck_menu .hsck_navbar .hsck_menu_right li:nth-last-child(1) a {
+    padding-right: 0px;
+}
+
+.hsck_menu .hsck_menu_toggle {
+    width: 36px;
+    height: 26px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0%, -50%);
+    cursor: pointer;
+    display: none;
+}
+
+.hsck_menu .hsck_menu_toggle span {
+    background-color: #fff;
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_menu .hsck_navbar .hsck_menu_right li a {
+        padding: 35px 12px;
+        font-size: 14px;
+    }
+    .hsck_menu .hsck_navbar .hsck_logo_outer .hsck_logo_inner img {
+        max-width: 75px;
+        top: 8px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_menu .hsck_menu_toggle {
+        display: block;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close span.top_line {
+        transform: rotate(45deg);
+        top: 12px;
+        position: relative;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close {
+        position: fixed;
+        top: 45px;
+        right: 25px;
+        z-index: 99;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close span.center_line {
+        opacity: 0;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close span.bottom_line {
+        transform: rotate(-45deg);
+        bottom: 12px;
+        position: relative;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right {
+        display: none;
+    }
+    .hsck_menu .hsck_navbar .hsck_logo_outer .hsck_logo_inner img {
+        max-width: 80px;
+        top: 0px;
+        padding: 10px 10px 5px;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right.menu_open {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background: #6f2fe5;
+        float: left;
+        width: auto;
+        padding: 0;
+        min-width: 280px;
+        padding-top: 30px;
+        box-shadow: 6px 0px 12px 0px #000;
+        z-index: 98;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right li {
+        display: block;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right li a {
+        padding: 10px 20px 10px 40px;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 2px;
+    }
+    .hsck_menu_fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 0 5px 0 #797979;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right li a::before {
+        display: none;
+    }
+    .hsck_menu .hsck_navbar .hsck_menu_right li a:hover {
+        color: #a3ffd4;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .hsck_menu .hsck_menu_toggle span {
+        margin-bottom: 7px;
+    }
+    .hsck_menu .hsck_navbar .hsck_logo_outer .hsck_logo_inner img {
+        max-width: 60px;
+        top: 0px;
+        padding: 5px 5px 5px;
+    }
+    .hsck_menu .hsck_menu_toggle {
+        width: 30px;
+        height: 15px;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close {
+        top: 35px;
+    }
+    .hsck_menu .hsck_menu_toggle.hsck_menu_toggle_close span.top_line {
+        top: 7px;
+    }
+}
+
+/* @media only screen and (min-width: 768.98px){
+ 	.hsck_menu_fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 999;
+		box-shadow: 0 0 5px 0 #797979;
+	}
+	.hsck_menu_fixed .hsck_navbar .hsck_menu_right li a{
+		padding: 25px 20px;
+	}
+	.hsck_menu_fixed .hsck_navbar .hsck_logo_outer .hsck_logo_inner img {
+		max-width: 65px;
+		top: 6px;
+	}
+ }*/
+
+/*=============== Menu Css End ===================*/

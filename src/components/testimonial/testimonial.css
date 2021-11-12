@@ -1,0 +1,371 @@
+/*=============== Testimoanial Css Start ===================*/
+
+.hsck_testimonial {
+    padding: 50px 0 0;
+    position: relative;
+    margin: 50px 0 0;
+}
+
+.hsck_testimonial .hsck_testimonial_inner {
+    text-align: center;
+    display: block;
+    max-width: 450px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hsck_testimonial .hsck_testimonial_inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    box-shadow: 0 0 7px 0 #8c72b7;
+    border-radius: 80px;
+}
+
+.hsck_testimonial .hsck_testimonial_inner strong {
+    display: block;
+    color: #6730E3;
+    margin: 8px 0 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hsck_testimonial .hsck_testimonial_inner h3 {
+    color: #000;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hsck_testimonial .hsck_testimonial_inner p {
+    color: #707070;
+    display: block;
+    font-size: 16px;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel {
+    background: #fff;
+    margin: 50px auto;
+    padding: 50px 30px;
+    box-shadow: 0px 1px 15px 0 #e8e8e8;
+    border-radius: 10px;
+    position: relative;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel .hsck_left_section h1 {
+    color: #000;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel .hsck_left_section p {
+    color: #707070;
+    font-size: 16px;
+    max-width: 430px;
+    position: relative;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel .hsck_left_section p::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: -40px;
+    background-image: url(images/quote.svg);
+    width: 50px;
+    height: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel .hsck_left_section p::after {
+    content: "";
+    position: absolute;
+    right: -50px;
+    bottom: -30px;
+    background-image: url(images/quote.svg);
+    width: 50px;
+    height: 70px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/********/
+
+.hsck_testimonial .item {
+    display: flex;
+    align-items: center;
+}
+
+.hsck_testimonial .hsck_testimonial_rightbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hsck_testimonial .hsck_testimonial_rightbar img {
+    width: 100%;
+    max-width: 110px;
+}
+
+.hsck_testimonial .item .hsck_testimonial_inner {
+    width: 50%;
+}
+
+.hsck_testimonial .item .hsck_left_section {
+    width: 50%;
+}
+
+.hsck_testimonial .item .hsck_testimonial_inner h1 {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 30px;
+    max-width: 430px;
+}
+
+.hsck_testimonial .item .hsck_testimonial_inner p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 460px;
+}
+
+.hsck_testimonial .item .hsck_right_section {
+    width: 50%;
+}
+
+.hsck_testimonial .item .hsck_right_section .hsck_testimonial_block {
+    width: 160px;
+    height: 160px;
+    border-radius: 300px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+}
+
+.hsck_testimonial .item .hsck_right_section .hsck_testimonial_block img {
+    width: 100%;
+    height: 100%;
+    border-radius: 300px;
+}
+
+.hsck_testimonial .item .hsck_right_section .hsck_testimonial_block::before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    background-image: linear-gradient(#6F2FE5, #CF24F6);
+    z-index: -1;
+}
+
+.hsck_testimonial .item .hsck_right_section .hsck_testimonial_block::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #fff;
+    z-index: -1;
+    box-shadow: 0 0 8px 0 #bbb;
+}
+
+.hsck_testimonial .owl-dots {
+    margin: 20px 0 0 !important;
+}
+
+.hsck_testimonial .owl-dots button {
+    margin: 10px 4px;
+    outline: none;
+}
+
+.hsck_testimonial .owl-dots button span {
+    background: #DCDCDC !important;
+    margin: 0px !important;
+    width: 30px !important;
+    height: 3px !important;
+}
+
+.hsck_testimonial .owl-dots button.active span {
+    background: #1A2C79 !important;
+}
+
+.hsck_testimonial .owl-nav {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    transform: translate(0, -50%);
+    width: calc(100% - 30px);
+    z-index: 99;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hsck_testimonial .owl-nav button {
+    background-color: #F8F9FA !important;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px !important;
+    outline: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.hsck_testimonial .owl-nav button span {
+    font-size: 32px;
+    position: relative;
+    bottom: 8px;
+    color: #000 !important;
+}
+
+.hsck_testimonial .owl-nav button.owl-prev {
+    float: left;
+}
+
+.hsck_testimonial .owl-nav button.owl-next {
+    float: right;
+}
+
+.hsck_testimonial .owl-nav button.owl-prev span {
+    left: -8px;
+}
+
+.hsck_testimonial .owl-nav button.owl-prev span::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    height: 2px;
+    width: 21px;
+    top: 28px;
+    left: 5px;
+}
+
+.hsck_testimonial .owl-nav button.owl-next span {
+    right: -8px;
+}
+
+.hsck_testimonial .owl-nav button.owl-next span::before {
+    content: "";
+    position: absolute;
+    background: #000;
+    height: 2px;
+    width: 21px;
+    top: 28px;
+    right: 5px;
+}
+
+.hsck_testimonial .owl-nav button:hover {
+    background-color: #1A2C79 !important;
+}
+
+.hsck_testimonial .owl-nav button:hover span {
+    color: #fff !important;
+}
+
+.hsck_testimonial .owl-nav button:hover span:before {
+    background-color: #fff !important;
+}
+
+.hsck_testimonial .owl-nav button:hover span:after {
+    background-color: #fff !important;
+}
+
+.hsck_testimonial .hsck_testimonial_carousel .owl-stage-outer {
+    padding: 25px 0 0;
+}
+
+@media only screen and (max-width: 1200.98px) {
+    .hsck_testimonial .item .hsck_testimonial_inner h1 {
+        font-size: 3rem;
+        line-height: 65px;
+    }
+    .hsck_testimonial .item .hsck_right_section img {
+        max-width: 380px;
+    }
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_testimonial .item .hsck_left_section h1 {
+        font-size: 2.4rem;
+        line-height: 50px;
+    }
+    .hsck_testimonial .item .hsck_left_section p {
+        max-width: 390px;
+        font-size: 14px;
+    }
+    .hsck_testimonial .hsck_testimonial_carousel .hsck_left_section p::after {
+        display: none;
+    }
+    .hsck_testimonial .item .hsck_left_section h1 {
+        font-size: 2rem;
+        line-height: 26px;
+    }
+    .hsck_testimonial .hsck_testimonial_rightbar img {
+        width: 100%;
+        max-width: 70px;
+    }
+    .hsck_testimonial {
+        margin-bottom: 0px;
+        padding-bottom: 30px;
+    }
+    .hsck_testimonial .hsck_testimonial_carousel .owl-stage-outer {
+        padding: 50px 0 30px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_testimonial .item .hsck_left_section h1 {
+        font-size: 1.8rem;
+        line-height: 40px;
+    }
+    .hsck_testimonial .item .hsck_left_section p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+    .hsck_testimonial .item .hsck_right_section img {
+        max-width: 210px;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .hsck_testimonial .item {
+        display: block;
+        text-align: center;
+    }
+    .hsck_testimonial .item .hsck_left_section {
+        width: 100%;
+        text-align: center;
+    }
+    .hsck_testimonial .item .hsck_right_section {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .hsck_testimonial .item .hsck_right_section img {
+        float: unset;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .hsck_testimonial .hsck_testimonial_inner h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/*=============== Testimoanial Css End ===================*/

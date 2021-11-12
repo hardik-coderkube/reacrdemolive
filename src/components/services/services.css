@@ -1,0 +1,232 @@
+/*=============== Services Css Start ===================*/
+
+.hsck_services {
+    padding: 50px 0;
+    position: relative;
+    background: #F8F9FA;
+}
+
+.hsck_services .hsck_services_rightbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hsck_services .hsck_services_rightbar img {
+    width: 100%;
+    max-width: 110px;
+}
+
+.hsck_services .hsck_services_inner {
+    text-align: center;
+    display: block;
+    max-width: 450px;
+    margin: 0 auto 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.hsck_services .hsck_services_inner img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50px;
+    box-shadow: 0 0 7px 0 #8c72b7;
+    border-radius: 80px;
+}
+
+.hsck_services .hsck_services_inner strong {
+    display: block;
+    color: #6730E3;
+    margin: 8px 0 0px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.hsck_services .hsck_services_inner h3 {
+    color: #000;
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.hsck_services .hsck_services_inner p {
+    color: #707070;
+    display: block;
+    font-size: 16px;
+}
+
+.hsck_services .hsck_services_outer {
+    text-align: left;
+    display: flex;
+    align-content: flex-start;
+    margin: 50px auto;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+.hsck_services .hsck_services_outer .hsck_items {
+    width: calc(33.33% - 30px);
+    padding: 35px;
+    background: #fff;
+    box-shadow: 0px 1px 15px 0 #e8e8e8;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 45px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hsck_services .hsck_services_outer .hsck_items img {
+    max-width: 30px;
+    display: block;
+}
+
+.hsck_services .hsck_services_outer .hsck_items::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-image: linear-gradient(#6F2FE5, #CF24F6);
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.hsck_services .hsck_services_outer .hsck_items:hover:before {
+    top: 0px;
+}
+
+.hsck_services .hsck_services_outer .hsck_items img.active {
+    display: none;
+}
+
+.hsck_services .hsck_services_outer .hsck_items:hover img {
+    display: none;
+}
+
+.hsck_services .hsck_services_outer .hsck_items:hover img.active {
+    display: block;
+    position: relative;
+}
+
+.hsck_services .hsck_services_outer .hsck_items:hover h4, .hsck_services .hsck_services_outer .hsck_items:hover p {
+    color: #fff;
+    position: relative;
+}
+
+.hsck_services .hsck_services_outer .hsck_items h4 {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+
+.hsck_services .hsck_services_outer .hsck_items p {
+    color: #707070;
+}
+
+.hsck_services .hsck_services_outer .hsck_items button {
+    border: none;
+    background: transparent;
+    color: #1A2C79;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hsck_services .hsck_services_outer .hsck_items button i {
+    position: relative;
+    margin-left: 5px;
+    top: 1px;
+}
+
+@media only screen and (max-width: 992.98px) {
+    .hsck_services .hsck_services_rightbar img {
+        max-width: 90px;
+    }
+    .hsck_services .hsck_services_outer .hsck_items {
+        width: calc(33.33% - 20px);
+        padding: 25px;
+        margin-bottom: 25px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .hsck_services .hsck_services_outer {
+        margin: 50px auto 0;
+    }
+    .hsck_services .hsck_services_rightbar img {
+        max-width: 90px;
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .hsck_services {
+        padding: 50px 0 50px;
+    }
+    .hsck_services .hsck_services_outer .hsck_items p {
+        color: #707070;
+        max-width: 270px;
+        margin: 0 auto 20px;
+        font-size: 12px;
+    }
+    .hsck_services .hsck_services_outer .hsck_items h4 {
+        font-size: 14px;
+    }
+    .hsck_services .hsck_services_outer .hsck_items img {
+        max-width: 50px;
+    }
+    .hsck_services .hsck_services_outer {
+        padding: 35px 0px;
+        margin-bottom: 0px;
+    }
+    .hsck_services .hsck_about_rightbar img {
+        max-width: 80px;
+    }
+    .hsck_services .hsck_services_outer .hsck_items {
+        width: calc(50% - 20px);
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .hsck_services .hsck_services_outer {
+        display: flex;
+        padding: 25px 15px;
+    }
+    .hsck_services .hsck_services_rightbar img {
+        max-width: 60px;
+        bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 500.98px) {
+    .hsck_services .hsck_services_outer .hsck_items {
+        width: calc(100% - 0px);
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .hsck_services .hsck_services_outer .hsck_items p {
+        max-width: 100%;
+        margin: 0 auto 0px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600.98px) {
+    .hsck_services .hsck_services_inner h3 {
+        font-size: 1.5rem;
+    }
+    .hsck_services .hsck_services_rightbar img {
+        max-width: 60px;
+        bottom: 80px;
+    }
+}
+
+/*=============== Services Css End ===================*/
